@@ -13,7 +13,7 @@ const getData = async () => {
     }
   )
 
-  console.log('Fetching')
+  // console.log('Fetching')
 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
