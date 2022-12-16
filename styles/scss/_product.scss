@@ -1,0 +1,19 @@
+.product {
+  @apply flex flex-col items-center;
+
+  &__img {
+    @apply w-[90px] h-[90px] object-cover rounded-full overflow-hidden mb-4 animate-spin-slow;
+  }
+
+  &__title {
+    @apply text-center font-medium uppercase;
+  }
+
+  &__price {
+    @apply mb-auto font-medium;
+  }
+
+  &__button {
+    @apply px-4 py-2 bg-indigo-500 text-white rounded-full font-bold uppercase mt-4;
+  }
+}
